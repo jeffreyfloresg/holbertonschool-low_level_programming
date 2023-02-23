@@ -11,7 +11,7 @@ int main(void)
 	char lcl;
 
 	for (lcl = 'a'; lcl <= 'z'; ++lcl)
-		_printchar(lcl);
-	_printchar('\n')
+		_putchar(lcl);
+	_putchar('\n')
 	return (0);
 }
