@@ -9,11 +9,8 @@
 
 int _islower(int c)
 {
-	int iTA;
-
-	iTA = c + 32;
-	if (iTA < 97)
+	if (c >= 97 && c <= 122)
 		return (1);
-	else if (iTA == 97 || iTA <= 122)
+	else
 		return (0);
 }
