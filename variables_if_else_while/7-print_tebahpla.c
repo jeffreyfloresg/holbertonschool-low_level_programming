@@ -10,7 +10,7 @@ int main(void)
 {
 	char lcl;
 
-	for (lcl = 'z'; lcl => 'a'; --lcl)
+	for (lcl = 'z'; lcl >= 'a'; --lcl)
 		putchar(lcl);
 	putchar('\n');
 	return (0);
