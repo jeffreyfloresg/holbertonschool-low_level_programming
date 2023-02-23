@@ -12,6 +12,6 @@ int main(void)
 
 	for (lcl = 'a'; lcl <= 'z'; ++lcl)
 		_putchar(lcl);
-	_putchar('\n')
+	_putchar('\n');
 	return (0);
 }
