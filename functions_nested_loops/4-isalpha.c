@@ -3,8 +3,7 @@
 /**
  * _isalpha - prints 1 if argument is letter
  *            prints 0 otherwise
- * @c: is one character
- * 
+ * @c: is one character 
  * Return: 0.
  */
 
