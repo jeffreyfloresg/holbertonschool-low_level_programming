@@ -23,7 +23,7 @@ void jack_bauer(void)
 		}
 		for (min = 10; min < 60; ++min)
 		{
-			_putchar('0')
+			_putchar('0');
 			_putchar(hou);
 			_putchar(':');
 			_putchar(min);
