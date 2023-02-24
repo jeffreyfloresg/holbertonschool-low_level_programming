@@ -1,6 +1,5 @@
-OBJS = a.out m.h main.c school.c
 CC = gcc
 SRC = main.c
 
-all: $(OBJS)
-        $(CC) $(SRC) -o school 
+all: $(SRC)
+        $(CC) $(SRC) -o school
