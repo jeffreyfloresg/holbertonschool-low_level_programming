@@ -1,0 +1,4 @@
+OBJS = a.out m.h main.c school.c
+
+all: $(OBJS)
+	gcc $(OBJS) -o school 
