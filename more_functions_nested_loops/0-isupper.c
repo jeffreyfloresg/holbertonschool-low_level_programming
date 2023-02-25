@@ -7,7 +7,7 @@
  * 	   0 if it is not uppercase.
  */
 
-int _isupper(char c);
+int _isupper(char c)
 {
 	if (c >= 65 && c <= 90)
 		return (1);
