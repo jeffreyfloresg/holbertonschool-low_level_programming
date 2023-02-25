@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - print numbers from 0 to 9 and \n
- * @i: is an integer, serves as counter
+ * print_numbers - print numbers from 0 to 9
  * Return: 0 (Success)
  */
 
